@@ -1,14 +1,13 @@
-Task 1 (10 points)
+Task 1:
 
 Write a bash program (name it count_word.sh) that takes in a word and a filename from the command line and print out the number of occurrences of the word (not case sensitive) in the file. Name the program count_word.sh. Your program should work as follow:
 
 
-$ ./count_word.sh global /home/hdbui/shared/cs266/lab06/global.txt
 global 9
-$ ./count_word.sh nuclear /home/hb117/shared/cs371/lab04/global.txt
+
 nuclear 0
 
-Task 2 (10 points)
+Task 2:
 
 Write a bash program count_vote.sh to tally the votes for the most popular candy and print out the top 3 vote getters in descending order.
 
@@ -18,7 +17,7 @@ M&M's
 Hot Tamales
 Sour Patch Kids
 
-Task 3 (10 points)
+Task 3:
 
 Write a bash program that read in four integer numbers from the user and print out the sum and the average. Name the program awesum1.sh. Your program should work as follow:
 
@@ -33,7 +32,7 @@ You will receive another 5 additional points if your program work with floating 
 
 Hint: use bc or awk to perform floating point arithmetic.
 
-Task 4 (10 points)
+Task 4:
 
 Write a bash program that takes any numbers of arguments from the command line. Name it awesum2.sh
 
@@ -61,7 +60,7 @@ $ ./wizard.sh
 Your wizard name is: Pizin Uhith
 Hint: use array, $RANDOM, and modulation(%)
 
-Task 6 (20 points)
+Task 6:
 
 The Fibonacci Sequence is defined as follow:
 
@@ -92,7 +91,7 @@ $ ./fibo.sh
 34
 55
 ...
-Task 7 (20 points)
+Task 7:
 
 The included bash program spellcheck.sh will read in a text file and print out each word one per line. Modify it so it can work as a basic spell checker. You can use the dictionary located at:
 
@@ -100,7 +99,6 @@ The included bash program spellcheck.sh will read in a text file and print out e
 
 The result should look like this:
 
-~$ ./spellcheck.sh /home/hdbui/shared/cs266/lab06/unix.txt
 Unix is not in the dictionary
 Unix is not in the dictionary
 multiuser is not in the dictionary
